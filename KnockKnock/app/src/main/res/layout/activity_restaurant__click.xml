@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restaurant_Click">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="225dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="205dp">
+
+            <TextView
+                android:id="@+id/rest_name"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="음식점 이름"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  ABOUT"
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="가게 위치" />
+
+                    <TextView
+                        android:id="@+id/restuarntgps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="가게 위치"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="전화 번호" />
+
+                    <TextView
+                        android:id="@+id/restuarnatnum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="전화 번호"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="영업시간 " />
+                    <TextView
+                        android:id="@+id/restuarnattime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="영업시간"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="  자리현황" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="376dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/seat_1"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:paddingVertical="20dp"
+                        android:text="1인석 >"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/seat1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="20dp"
+                        android:text="0좌석"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="376dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/seat_2"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:paddingVertical="20dp"
+                        android:text="2인석 >"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/seat2"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="20dp"
+                        android:text="0좌석"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="378dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/seat_4"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:paddingVertical="20dp"
+                        android:text="4인석 >"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/seat4"
+                        android:layout_width="106dp"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="20dp"
+                        android:text="0좌석"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="377dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/seat_many"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:paddingVertical="20dp"
+                        android:text="단체석 >"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/seatMany"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="20dp"
+                        android:text="0좌석"
+                        android:textColor="#504E4E"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="38dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textSize="20dp" />
+
+
+                <Button
+                    android:id="@+id/waitingBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_round"
+                    android:text="대기명단 작성"
+                    android:textColor="#FF5722"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="38dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/waiting_main">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="225dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                >
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:text="현재 대기팀"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:id="@+id/waitintgTeam"
+                    android:gravity="center"
+                    android:textColor="#0100ff"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="280dp"
+                android:layout_height="5dp"
+                android:layout_centerInParent="true"
+                android:background="@color/colorPrimaryDark"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+
+            <LinearLayout
+                android:layout_width="192dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="인원 수"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/waitngPeople"
+                    android:layout_width="41dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:hint="00" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/waitingWriteBtn"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/button_round"
+                android:text="대기명단 작성"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFC107" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

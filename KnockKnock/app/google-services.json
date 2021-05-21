@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "701814556996",
+    "firebase_url": "https://knock-knock-81e77.firebaseio.com",
+    "project_id": "knock-knock-81e77",
+    "storage_bucket": "knock-knock-81e77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701814556996:android:5109fabd25babd3bde6f11",
+        "android_client_info": {
+          "package_name": "com.example.knockknock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701814556996-tjnuu43hl6r7jq9703aqpr74mppvef5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO3ZYv6eTAj3GnmcK0Lhlst5_qWO_jq9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701814556996-tjnuu43hl6r7jq9703aqpr74mppvef5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
